@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validations</title>
+</head>
+<script>
+    function check(){
+        var number;
+        number= Number(document.getElementById("age").value);
+        if(number < 18)
+        {
+           alert("You are not an adult");
+        }
+        else
+        {
+           alert("You are an adult");
+        }
+    }
+ </script>
+<body>
+    Enter your age: <input id="age">
+      <button onclick="check()">Check</button>
+
+      <form>
+       
+        <h2>Email validation</h2>
+        <label for="email">Enter Email</label><br />
+        <input type="email"
+               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required />
+        <h2>Phone validation</h2>
+        <label for="email">Enter phone</label><br />
+        <input type="tel" pattern="^[0-9]{10}$" required>
+
+        <input type="submit" value="Submit">
+</form>
+    
+</body>
+</html>
+
+
+
+
+
