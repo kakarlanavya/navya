@@ -1,0 +1,180 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: blue;
+            padding: 10px;
+        
+        }
+        main{
+            background-color: silver;
+            width: 1250px;
+            height: 570px;
+            margin: auto;
+        }
+        .container{
+            position: relative;
+            height: 700px;
+            
+        }
+        aside{
+            left: 500px;
+            top: 0px;
+            height: 600px;
+            width: 300px;
+            position: absolute;
+            padding : 15px;
+            margin: 8px;
+            background-color: rgb(103, 84, 22);
+        }
+        section{
+            padding : 10px;
+            background-color: silver;
+            height: 670px;
+           
+        
+        }
+        footer{
+            height: 50px;
+            background-color: rgba(48, 63, 232, 0.959);
+            line-height: 50px;
+            text-align: center;
+            
+        }
+     article{
+         width: 230px;
+         color: azure;
+         text-align: justify;
+         float: left;
+         padding: 5px;
+         margin: 8px;
+         height: 250px;
+         position: absolute;
+        }
+        article:nth-child(1){
+            background-color: rgb(150, 111, 38);
+            left: 0px;
+            top: 0px;
+        }
+        article:nth-child(2){
+            background-color: rgb(150, 111, 38);
+            left: 250px;
+            top: 0px;
+        }
+        article:nth-child(3){
+            background-color: rgb(150, 111, 38);
+            left: 0px;
+            top: 280px;
+        }
+        article:nth-child(4){
+            background-color: rgb(150, 111, 38);
+            left: 250px;
+            top: 280px;
+        }
+        nav{
+            position: relative;
+            left: 0px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: rgb(227, 223, 223);
+            padding: 0px;
+        }
+        li{
+            list-style: none;
+            position: absolute;
+            width: 80px;
+            height: 30px;
+            padding: 10px;
+            text-align: center;
+            line-height: 30px;
+           
+        }
+        li:hover{
+            background-color: silver;
+            cursor: pointer;
+        }
+        li a{
+            color: rgb(48, 8, 167);
+            text-decoration: none;
+            font-weight: normal;
+        }
+        li:nth-child(1){
+            left: 0px;
+        }
+        li:nth-child(2){
+            left: 100px;
+        }
+        li:nth-child(3){
+            left: 200px;
+        }
+        li:nth-child(4){
+            left: 300px;
+        }
+        li:nth-child(5){
+            left: 400px;
+        }
+    
+       
+    </style>
+</head>
+<body>
+    <!--     (header+(nav>ul>li>a{link item $}*5)+(main>section>header+article*3{Lorem})+(aside>header)+footer) -->
+<header>
+    <h1>IBM</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <main>
+        <section>
+    
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo harum quod quam, quia animi ex, omnis, ab in dicta doloremque nisi dignissimos. Praesentium deleniti debitis, quae nemo culpa aspernatur.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officiis beatae tenetur ex sint eveniet, laborum cumque blanditiis sapiente dignissimos cupiditate corrupti, minus, voluptas ut qui dolorum reprehenderit dolores id?
+           
+        </article>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo harum quod quam, quia animi ex, omnis, ab in dicta doloremque nisi dignissimos. Praesentium deleniti debitis, quae nemo culpa aspernatur.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officiis beatae tenetur ex sint eveniet, laborum cumque blanditiis sapiente dignissimos cupiditate corrupti, minus, voluptas ut qui dolorum reprehenderit dolores id?
+            
+        </article>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo harum quod quam, quia animi ex, omnis, ab in dicta doloremque nisi dignissimos. Praesentium deleniti debitis, quae nemo culpa aspernatur.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officiis beatae tenetur ex sint eveniet, laborum cumque blanditiis sapiente dignissimos cupiditate corrupti, minus, voluptas ut qui dolorum reprehenderit dolores id?
+            
+        </article>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo harum quod quam, quia animi ex, omnis, ab in dicta doloremque nisi dignissimos. Praesentium deleniti debitis, quae nemo culpa aspernatur.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officiis beatae tenetur ex sint eveniet, laborum cumque blanditiis sapiente dignissimos cupiditate corrupti, minus, voluptas ut qui dolorum reprehenderit dolores id?
+            
+        </article>
+        <aside>
+        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo harum quod quam, quia animi ex, omnis, ab in dicta doloremque nisi dignissimos. Praesentium deleniti debitis, quae nemo culpa aspernatur.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officiis beatae tenetur ex sint eveniet,laborum cumque blanditiis sapiente dignissimos cupiditate corrupti, minus, voluptas ut qui dolorum reprehenderit dolores id?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dicta, ut reprehenderit aspernatur laborum officiis pariatur? Error, modi ad consequuntur accusamus ullam explicabo mollitia, quidem repellat molestiae aliquid nemo aperiam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi totam quibusdam fuga. Itaque in, quia fugiat soluta hic dolores atque, cumque quidem animi, quasi reprehenderit tempora fugit ducimus iure?
+            
+        
+    </aside>
+          </main>
+          </div>
+          <footer>
+            <h3>
+               
+            </h3>
+        </footer>
+</body>
+</html>
